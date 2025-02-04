@@ -10,13 +10,13 @@ function App() {
     <div>
       <h1>Deals App</h1>
       <div>
-        <button onClick={() => setCurrentDeal('hour')}>Show Hour Deals</button>
+        {/* <button onClick={() => setCurrentDeal('hour')}>Show Hour Deals</button> */}
         <button onClick={() => setCurrentDeal('hot')}>Show Hot Deals</button>
-        <button onClick={() => setCurrentDeal('realtime')}>Show Real-Time Deals</button>
+        {/* <button onClick={() => setCurrentDeal('realtime')}>Show Real-Time Deals</button> */}
       </div>
       {currentDeal === 'hour' && <HourDeals />}
       {currentDeal === 'hot' && <HotDeals />}
-      {currentDeal === 'realtime' && <RealTimeDeals />}
+      {/* {currentDeal === 'realtime' && <RealTimeDeals />} */}
     </div>
   );
 }
